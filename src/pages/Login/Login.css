@@ -1,0 +1,46 @@
+.login-section {
+    background: #35be9b;
+    height: 100vh;
+}
+
+.login-form {
+    background: #fff;
+}
+
+.login-form h2 {
+    background: #2aa083;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+}
+
+.user-icon {
+    background: #2aa083;
+    padding: 5px 15px;
+    color: #fff;
+    font-size: 18px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.user-email,
+.user-password,
+.user-name {
+    border: 1px solid gray;
+    border-left: none;
+    width: 100%;
+    padding: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    outline: none;
+}
+
+.custom-btn {
+    background: #2aa083;
+    outline: none;
+    border: none;
+}
+
+.custom-btn:hover {
+    background: #35be9b;
+}

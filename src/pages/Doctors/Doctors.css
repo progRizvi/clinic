@@ -1,0 +1,39 @@
+.doctors-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 70px;
+}
+
+.doctor-card {
+    border: none;
+}
+
+.doctor-img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.social-icons span {
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .doctors-container {
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 30px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 992px) {
+    .doctors-container {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 30px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .doctors-container {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 30px;
+    }
+}

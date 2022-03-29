@@ -1,0 +1,171 @@
+.slider {
+    position: relative;
+}
+
+.timetable {
+    position: relative;
+    bottom: 70px;
+    right: 1%;
+}
+
+.timetable-container {
+    display: flex;
+}
+
+.timetable .emergency {
+    background: #435ba1;
+    height: 300px;
+    width: 33.33%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.timetable .calender {
+    background: #4f6dcd;
+    height: 300px;
+    width: 33.33%;
+}
+
+.timetable .time-table {
+    background: #43d5cb;
+    height: 300px;
+    width: 33.33%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.patient-container {
+    padding-top: 150px;
+}
+
+.patient-data {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 80px;
+}
+
+.service-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.gallery-img {
+    transition: 0.5s ease-out;
+}
+
+.gallery-img:hover {
+    transform: scale(1.04);
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .timetable {
+        position: relative;
+        bottom: 50px;
+        right: 1.5%;
+    }
+    .timetable .emergency {
+        width: 33.3%;
+        height: 400px;
+    }
+    .timetable .calender {
+        width: 33.3%;
+        height: 400px;
+    }
+    .timetable .time-table {
+        width: 33.3%;
+        height: 400px;
+    }
+    .patient-data {
+        grid-column-gap: 10px;
+    }
+    .service-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 992px) {
+    .timetable {
+        position: unset;
+        bottom: 0px;
+        right: 0px;
+    }
+    .timetable-container {
+        flex-direction: column;
+    }
+    .timetable .emergency {
+        width: 100%;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    .timetable .calender {
+        width: 100%;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    .timetable .time-table {
+        width: 100%;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    .patient-data {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 10px;
+    }
+    .service-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+    .gallery-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .timetable {
+        position: unset;
+        bottom: 0px;
+        right: 0px;
+    }
+    .timetable-container {
+        flex-direction: column;
+    }
+    .timetable .emergency {
+        width: 100%;
+        height: 100%;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    .timetable .calender {
+        width: 100%;
+        height: 100%;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    .timetable .time-table {
+        width: 100%;
+        height: 100%;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    .patient-data {
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 10px;
+    }
+    .service-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+    .gallery-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 15px;
+    }
+}

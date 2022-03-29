@@ -1,0 +1,19 @@
+.footer-contact-email {
+    width: 400px;
+    outline: none;
+}
+
+.footer-contact-email .email {
+    background: #393b3b;
+    border: none;
+}
+
+.footer-contact-message {
+    width: 400px;
+    height: 100px;
+}
+
+.footer-contact-message .message {
+    background: #393b3b;
+    border: none;
+}

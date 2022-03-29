@@ -1,0 +1,71 @@
+[{
+        "id": "9857151418",
+        "treatment_name": "Neurosurgery",
+        "description": "Our top-rated neurosurgeons use advanced imaging and surgical techniques to treat neurological conditions, such as brain tumors and traumatic brain injury.",
+        "price": 8166,
+        "img": "https://i.ibb.co/SQ9sbsV/neuro.png"
+    },
+    {
+        "id": "8491595139",
+        "treatment_name": "CAR T-cell Therapy",
+        "description": "CAR T-cell therapy ... A type of treatment in which a patient's T cells (a type of immune system cell) are changed in the laboratory so they will attack cancer.",
+        "price": 8521,
+        "img": "https://i.ibb.co/Z6HYr7f/cancer-care-at-home-759.png"
+    },
+    {
+        "id": "8646490068",
+        "treatment_name": "Clinical Nutrition",
+        "description": "Nutrition and nutritional care have gained wide clinical and scientific interest during the past decades. The increasing knowledge of metabolic disturbances",
+        "price": 7000,
+        "img": "https://i.ibb.co/VL6m5dN/nutration.png"
+    },
+    {
+        "id": "0386452679",
+        "treatment_name": "Surgery",
+        "description": "Surgery is a medical or dental specialty that uses operative manual and instrumental techniques on a person to investigate or treat a pathological condition",
+        "price": 8778,
+        "img": "https://i.ibb.co/cxDQC29/surgical.png"
+    },
+    {
+        "id": "6556930210",
+        "treatment_name": "Kidney Transplant",
+        "description": "When you get a kidney transplant, a healthy kidney is placed inside your body to do the work your own kidneys can no longer do. ",
+        "price": 9373,
+        "img": "https://i.ibb.co/NZVNv2D/kidney.png"
+    },
+    {
+        "id": "3404992504",
+        "treatment_name": "Lung Cancer",
+        "description": "Lung cancer is a type of cancer that begins in the lungs. Your lungs are two spongy organs in your chest that take in oxygen when you inhale.",
+        "price": 7166,
+        "img": "https://i.ibb.co/gJZ0ZcW/lung-cancer.png"
+    },
+    {
+        "id": "9020775014",
+        "treatment_name": "Eye Medication",
+        "description": "Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo non habent claritatem insitamconsequat duis autem facilisis at vero eros",
+        "price": 8847,
+        "img": "https://i.ibb.co/pnVbhCQ/medication.png"
+    },
+    {
+        "id": "2805475089",
+        "treatment_name": "Lasik Surgery",
+        "description": "Ut wisi enim ad minim veniam, quis laore est usus legentis in iis qui facit eorum nostrud",
+        "price": 7142,
+        "img": "https://i.ibb.co/VBKXfQ6/lasik.png"
+    },
+    {
+        "id": "7343298720",
+        "treatment_name": "Sight Terapy",
+        "description": "Ut wisi enim ad minim veniam, quis laore est usus legentis in iis qui facit eorum nostrud",
+        "price": 8782,
+        "img": "https://i.ibb.co/TmRZjXY/sight.png"
+    },
+    {
+        "id": "5136252855",
+        "treatment_name": "Blidness Test",
+        "description": "Ut wisi enim ad minim veniam, quis laore est usus legentis in iis qui facit eorum nostrud",
+        "price": 6169,
+        "img": "https://i.ibb.co/T2Djwvp/blindness.png"
+    }
+]
